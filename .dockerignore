@@ -1,0 +1,21 @@
+# Ignore data and tests folders (not needed inside the container)
+data/
+tests/
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore any local logs or temporary files
+logs/
+*.log
+
+# Optional: ignore IDE/workstation files
+#*.DS_Store
+#*.VSCODE*
+

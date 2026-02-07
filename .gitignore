@@ -1,5 +1,33 @@
+# Data files (too large for GitHub)
+data/
+*.csv
+*.zip
+*.pkl
+*.parquet
+
+# Virtual environment
 venv/
-movielens-recommender.egg-info/
+ENV/
+env/
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 *.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
 .env

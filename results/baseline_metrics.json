@@ -1,0 +1,19 @@
+{
+    "model": "SVD",
+    "parameters": {
+        "n_factors": 100,
+        "n_epochs": 20,
+        "lr_all": 0.005,
+        "reg_all": 0.02
+    },
+    "overall_performance": {
+        "rmse": 0.8358694040620009,
+        "mae": 0.6353189300946676
+    },
+    "cold_start_performance": {
+        "rmse": 0.8358694040620009,
+        "mae": 0.6353189300946676,
+        "n_movies": 100,
+        "n_ratings": 257
+    }
+}

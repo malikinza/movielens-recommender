@@ -66,7 +66,8 @@ Content-based underperformance stems from three limitations:
 
 ### Diagnostic Insights
 
-![Diagnostic Analysis](results/diagnostics/content_based_diagnostics.png)
+<img width="871" height="291" alt="image" src="https://github.com/user-attachments/assets/d7ca6fbd-ced3-4554-943d-983ed5c56912" />
+
 
 Diagnostic analysis revealed well-calibrated predictions (mean 3.43 vs actual 3.38) with no systematic bias (errors centered at zero), but high variance as the key weakness. Scatter plots show predictions varying by 2-3 stars for the same actual rating, stemming from inability to distinguish quality within genres. Error distribution ranges from -2 to +3 stars with slight right skew, indicating occasional severe overpredictions when users like a genre but encounter poorly-made examples. The model rarely predicts below 2.0 or at 5.0, instead regressing toward 3.0-4.5 range due to weighted averaging smoothing.
 

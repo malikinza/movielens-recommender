@@ -3,7 +3,7 @@
 A recommendation system built on the MovieLens 20M dataset comparing collaborative filtering and content-based approaches for cold-start movie scenarios.
 
 ## Project Structure
-
+`````
 movielens-recommender/
 ├── notebooks/
 │   ├── 01_preprocessing.ipynb
@@ -17,6 +17,7 @@ movielens-recommender/
 │   └── content_based_diagnostics.png
 ├── requirements.txt
 └── README.md
+`````
 
 ## Dataset
 
